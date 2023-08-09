@@ -32,7 +32,7 @@ document.getElementById("start").addEventListener("click", () => {
   //UI updates
   //Create an array of span elements so we can set a class
   const spanWords = words.map((word) => {
-    return `<span>${word}</span>`;
+    return `<span>${word} </span>`;
   });
   // Convert into string and set it as innerHTML on quote display
   quoteElement.innerHTML = spanWords.join(" ");
