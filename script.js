@@ -35,7 +35,7 @@ document.getElementById("start").addEventListener("click", () => {
     return `<span>${word} </span>`;
   });
   // Convert into string and set it as innerHTML on quote display
-  quoteElement.innerHTML = spanWords.join(" ");
+  quoteElement.innerHTML = spanWords.join("");
   // Highlight the first word typed
   quoteElement.childNodes[0].className = "highlight";
   // Clear an old message
