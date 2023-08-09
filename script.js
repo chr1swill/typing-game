@@ -64,7 +64,7 @@ typedValueElement.addEventListener("input", () => {
       elapsedTime / 1000
     } seconds.`;
     messageElement.innerText = message;
-  } else if (typedValue.endWith(" ") && typedValue.trim() === currentWord) {
+  } else if (typedValue.endsWith(" ") && typedValue.trim() === currentWord) {
     //end of word
     //clear the typedValueElement for the new word
     typedValueElement.value = "";
